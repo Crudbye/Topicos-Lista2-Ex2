@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/titu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atividade 2!"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_margin="20dp"
+
+            />
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="digite seu telefone"
+            android:layout_margin="20dp"
+            android:inputType="phone"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="digite sua senha"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/texto"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="digite uma palavra"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:inputType="textAutoComplete"
+            />
+        <EditText
+            android:id="@+id/emaill"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="digite seu email"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            />
+
+    </LinearLayout >
+</ScrollView>
